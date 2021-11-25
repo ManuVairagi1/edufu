@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edufu/static/css/main.ec6dc076.chunk.css",
+    "main.js": "/edufu/static/js/main.5666d63d.chunk.js",
+    "main.js.map": "/edufu/static/js/main.5666d63d.chunk.js.map",
+    "runtime-main.js": "/edufu/static/js/runtime-main.9228611e.js",
+    "runtime-main.js.map": "/edufu/static/js/runtime-main.9228611e.js.map",
+    "static/js/2.49a29221.chunk.js": "/edufu/static/js/2.49a29221.chunk.js",
+    "static/js/2.49a29221.chunk.js.map": "/edufu/static/js/2.49a29221.chunk.js.map",
+    "static/js/3.55b311ba.chunk.js": "/edufu/static/js/3.55b311ba.chunk.js",
+    "static/js/3.55b311ba.chunk.js.map": "/edufu/static/js/3.55b311ba.chunk.js.map",
+    "index.html": "/edufu/index.html",
+    "static/css/main.ec6dc076.chunk.css.map": "/edufu/static/css/main.ec6dc076.chunk.css.map",
+    "static/js/2.49a29221.chunk.js.LICENSE.txt": "/edufu/static/js/2.49a29221.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9228611e.js",
+    "static/js/2.49a29221.chunk.js",
+    "static/css/main.ec6dc076.chunk.css",
+    "static/js/main.5666d63d.chunk.js"
+  ]
+}
