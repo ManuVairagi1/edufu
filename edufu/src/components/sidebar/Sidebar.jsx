@@ -12,9 +12,9 @@ class Sidebar extends React.Component {
 
         <div className="institute_type">
           <div className="easy">
-            <h2 className="header">Institute Type</h2>
+            <h2 className="header">Types</h2>
             <img
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_arrowDown_0377EB.svg"
+              src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
               alt=""
             />
           </div>
@@ -22,18 +22,26 @@ class Sidebar extends React.Component {
           <div className="box">
             <img
               class="tick_box"
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_radioCheck_mixed.svg"
+              src="https://lh3.googleusercontent.com/proxy/Fh2c0NxLmodb0ommZ6xt1QhvDI1GqVnaXN6kDoxH-TLTvyswWK98KzI3VXJwKmpnvyYZsEVRsM48RICHFr6nLGh80h8dB1SaH1cc8CG_BjHnXpJ6NE7MZ5SGTzpa3RMc7V09Mpvi3CmJwDoMKrsfNUbaxeH32Fo_KTD-Bg"
               alt=""
             />
-            <p className="option1">College</p>
+            <p className="option1">Wheat</p>
           </div>
           <div className="box">
             <img
               class="tick_box"
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_radioCheck_mixed.svg"
+              src="https://lh3.googleusercontent.com/proxy/Fh2c0NxLmodb0ommZ6xt1QhvDI1GqVnaXN6kDoxH-TLTvyswWK98KzI3VXJwKmpnvyYZsEVRsM48RICHFr6nLGh80h8dB1SaH1cc8CG_BjHnXpJ6NE7MZ5SGTzpa3RMc7V09Mpvi3CmJwDoMKrsfNUbaxeH32Fo_KTD-Bg"
               alt=""
             />
-            <p className="option2">School</p>
+            <p className="option2">Barley</p>
+          </div>
+          <div className="box">
+            <img
+              class="tick_box"
+              src="https://lh3.googleusercontent.com/proxy/Fh2c0NxLmodb0ommZ6xt1QhvDI1GqVnaXN6kDoxH-TLTvyswWK98KzI3VXJwKmpnvyYZsEVRsM48RICHFr6nLGh80h8dB1SaH1cc8CG_BjHnXpJ6NE7MZ5SGTzpa3RMc7V09Mpvi3CmJwDoMKrsfNUbaxeH32Fo_KTD-Bg"
+              alt=""
+            />
+            <p className="option2">Other</p>
           </div>
         </div>
         <div className="line"></div>
@@ -42,14 +50,14 @@ class Sidebar extends React.Component {
           <div className="easy">
             <h2 className="header">Type</h2>
             <img
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_arrowDown_0377EB.svg"
+              src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
               alt=""
             />
           </div>
           <div className="box">
             <img
               class="tick_box"
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_radioCheck_mixed.svg"
+              src="https://lh3.googleusercontent.com/proxy/Fh2c0NxLmodb0ommZ6xt1QhvDI1GqVnaXN6kDoxH-TLTvyswWK98KzI3VXJwKmpnvyYZsEVRsM48RICHFr6nLGh80h8dB1SaH1cc8CG_BjHnXpJ6NE7MZ5SGTzpa3RMc7V09Mpvi3CmJwDoMKrsfNUbaxeH32Fo_KTD-Bg"
               alt=""
             />
             <p className="option1">All</p>
@@ -57,7 +65,7 @@ class Sidebar extends React.Component {
           <div className="box">
             <img
               class="tick_box"
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_radioCheck_mixed.svg"
+              src="https://lh3.googleusercontent.com/proxy/Fh2c0NxLmodb0ommZ6xt1QhvDI1GqVnaXN6kDoxH-TLTvyswWK98KzI3VXJwKmpnvyYZsEVRsM48RICHFr6nLGh80h8dB1SaH1cc8CG_BjHnXpJ6NE7MZ5SGTzpa3RMc7V09Mpvi3CmJwDoMKrsfNUbaxeH32Fo_KTD-Bg"
               alt=""
             />
             <p className="option2">Featured</p>
@@ -68,8 +76,9 @@ class Sidebar extends React.Component {
           <div className="easy">
             <h2 className="header">Search</h2>
             <img
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_arrowDown_0377EB.svg"
+              src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
               alt=""
+              className="arrowDown_icon"
             />
           </div>
           <input type="text" className="option1" placeholder="Search Course" />
@@ -79,7 +88,7 @@ class Sidebar extends React.Component {
           <div className="easy">
             <h2 className="header">CITY/TOWN</h2>
             <img
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_arrowDown_0377EB.svg"
+              src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
               alt=""
             />
           </div>
@@ -101,39 +110,10 @@ class Sidebar extends React.Component {
               Hydrabad
             </label>
           </div>
-        </div>
-
-        <div className="college_type">
-          <div className="easy">
-            <h2 className="header">College Type</h2>
-            <img
-              src="https://dev.edufu.in/assets/images/institutionSearch/icon_arrowDown_0377EB.svg"
-              alt=""
-            />
-          </div>
-          <div className="box2">
+          <div className="box">
             <input type="checkbox" className="option1" />
             <label htmlFor="option1" className="option1">
-              All
-            </label>
-          </div>
-          <div className="box2">
-            <input type="checkbox" className="option1" />
-            <label htmlFor="option1" className="option1">
-              Government
-            </label>
-          </div>
-          <div className="box2">
-            <input type="checkbox" className="option1" />
-            <label htmlFor="option1" className="option1">
-              Private
-            </label>
-          </div>
-
-          <div className="box2">
-            <input type="checkbox" className="option1" />
-            <label htmlFor="option1" className="option1">
-              Aided
+              Other
             </label>
           </div>
         </div>

@@ -10,38 +10,38 @@ class Card extends React.Component {
           <div className="image">
             <img
               className="background_image"
-              src="https://dev.edufu.in/server/api/uploadFile/getUploadedFile/userUploadFile/2021/11/21/15/college_6062435248037947.jpg"
+              src="https://static01.nyt.com/images/2020/03/17/well/askwell-wholegrains/askwell-wholegrains-mediumSquareAt3X.jpg"
             ></img>
           </div>
 
           <div className="info">
             <img
               className="profile_image"
-              src="https://dev.edufu.in/server/api/uploadFile/getUploadedFile/userUploadFile/2021/10/14/10/college_4335357513197369.jpg"
+              src="https://kj1bcdn.b-cdn.net/media/10277/how-to-grow-wheat.jpg"
             ></img>
-            <div className="name">Lorem ipsum dolor sit amet.</div>
+            <div className="name">Wheat</div>
           </div>
           <div className="information">
             <div className="fee">
-              <div className="information_header">Average Yearly Fee</div>
-              <div className="information_value">Rs. 8k - 72k</div>
+              <div className="information_header">Price</div>
+              <div className="information_value"> Rs. 20-25</div>
             </div>
             <div className="border"></div>
             <div className="course">
-              <div className="information_header">Available Course</div>
-              <div className="information_value">30 Courses</div>
+              <div className="information_header">Quantity</div>
+              <div className="information_value">1kg</div>
             </div>
             <div className="border"></div>
             <div className="rank">
-              <div className="information_header">Rank</div>
-              <div className="information_value">93</div>
+              <div className="information_header">Unit</div>
+              <div className="information_value">Kilogram</div>
             </div>
           </div>
           <div className="border1"></div>
 
           <div className="apply">
-            <button className="brochure_button">Brouchure</button>
-            <button className="apply_button">Apply</button>
+            <button className="brochure_button">Buy</button>
+            <button className="apply_button">Sell</button>
           </div>
         </div>
       </div>

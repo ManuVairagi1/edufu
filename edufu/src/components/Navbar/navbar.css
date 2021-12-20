@@ -16,10 +16,10 @@
 
 .item_button {
   margin-right: 40px;
-  color: #0377eb;
+  color: #14a800;
   width: 100px;
   border-radius: 10px;
-  border: #0377eb solid 1px;
+  border: #14a800 solid 1px;
 }
 
 .item_button:hover {
@@ -27,12 +27,18 @@
   border: 1px solid black;
   transition: ease-in;
   transition-delay: 0.5s;
+  cursor: pointer;
 }
 
 .logo_image {
   height: 40px;
   margin-top: 20px;
   margin-left: 40px;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: #14a800;
 }
 
 .results {

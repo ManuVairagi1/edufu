@@ -8,14 +8,19 @@
   margin-left: 80px;
   height: 100%;
 }
-
+.tick_box {
+  height: 15px;
+}
+.easy img {
+  height: 20px;
+}
 .easy {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .clear {
-  color: rgb(3, 119, 235);
+  color: #14a800;
 }
 .filter {
   color: rgba(136, 136, 136, 0.7);
@@ -33,11 +38,13 @@
   align-items: center;
   text-align: center;
   margin: auto;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 100px;
 }
 .box2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 100px;
   align-items: center;
 }
 .border {
@@ -48,4 +55,5 @@
 .option2 {
   padding-left: 25px;
   font-size: 20px;
+  justify-content: flex-start;
 }

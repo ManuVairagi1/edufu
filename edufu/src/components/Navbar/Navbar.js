@@ -6,11 +6,7 @@ class Navbar extends React.Component {
       <div>
         <div className="navbar">
           <div className="logo">
-            <img
-              className="logo_image"
-              src="	https://dev.edufu.in/assets/img/logo.png"
-              alt=""
-            />
+            <img className="logo_image" src="	" alt="" />
           </div>
 
           <ul className="items">

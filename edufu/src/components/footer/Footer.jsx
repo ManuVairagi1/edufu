@@ -7,12 +7,6 @@ class Footer extends React.Component {
       <div>
         <div className="footer1">
           <div className="part1">
-            <img
-              src="https://dev.edufu.in/assets/img/logo.png"
-              className="company_logo"
-              alt=""
-            />
-
             <div className="logos">
               <img
                 src="https://dev.edufu.in/assets/img/Twitter.png"
@@ -50,18 +44,16 @@ class Footer extends React.Component {
           </div>
           <div className="part4">
             <div className="heading">CONTACT US</div>
-            <div className="detail">Edufu Technologies Pvt. Ltd.</div>
-            <div className="detail">www.Edufu.in</div>
-            <div className="detail">Admin@Edufu.in</div>
-            <div className="detail">
-              25, 1st main road, KB nagar, Bengaluru, karnataka 560026
-            </div>
+            <div className="detail">FarmEasy Technologies Pvt. Ltd.</div>
+            <div className="detail">www.FarmEasy.in</div>
+            <div className="detail">Admin@FarmEasy.in</div>
+            <div className="detail">Vit Bhopal University, Madhya Pradesh</div>
           </div>
         </div>
         <div className="footer2">
           <div className="terms">Terms and Conditions </div>
           <div className="copyrights">
-            2018 - Edufu technologies Pvt. Ltd. | All rights reserved
+            2018 -FarmEasy technologies Pvt. Ltd. | All rights reserved
           </div>
         </div>
       </div>
